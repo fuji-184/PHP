@@ -1,0 +1,46 @@
+body {
+	background-color: black;
+	color: #9d72ff;
+	padding: 0 10px 0 10px;
+	font-family: Comic sans MS;
+	font-size: 13px;
+	background-image:url('bg.gif');
+	background-repeat:repeat;
+	background-position:top right;
+	background-attachment:fixed;
+	text-shadow: 5px 5px 5px black;
+}
+img {
+	margin: auto;display: block;
+	width: 100px;
+	margin-bottom: 40px;
+	filter: brightness(80%);
+	border-radius: 4px;
+	background: linear-gradient( rgba(0,0,0,0), rgba(0, 0, 0, 0.5));
+}
+ol { 
+	list-style-image: url("icon1.gif"); font-size: 12px;
+} 
+ul { 
+	list-style-image: url("icon2.gif"); 
+} 
+
+fieldset {
+	border: 2px solid blue;
+	background-color: black;
+}
+legend {
+	border: 2px solid blue;
+	padding: 5px;
+	color: blue;
+	background-color: black;
+}
+
+h1 {
+	color: blue;
+}
+div {
+	background: black;
+	padding: 20px;
+	border-radius: 2px;
+}
